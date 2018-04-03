@@ -8,11 +8,11 @@
 * Configure the module settings:
   * Merchant Id
   * Pass Code (secret key)
-  * Payment page domain
+  * Encryption Algorithm (usually default unless upgrade requested or instructed otherwise)
+  * Gateway domain (usually _secure.aldrapay.com_)
   * Order statuses for successfuly processed payment and for failed one
-  * Enabled the module
-  * And optionally setup sort order id if you want to move the payment
-    option higher level in payment method list
+  * Enable the module, by setting  the `Status` option to `Enabled`
+  * And optionally setup sort order id if you want to move the payment option higher level in payment method list
 
 ### Notes
 
@@ -20,8 +20,7 @@ Tested and developed with OpenCart v.3.0.2.0
 
 ### Troubleshooting
 
-If you hosting service doesn't provide a FTP access, most probably you
-will have to install [the extension](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=18892) before to install the payment module.
+If you hosting service doesn't provide a FTP access, most probably you will have to install [the extension](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=18892) before installing the payment module.
 
 Alternatively you can just upload the _upload_ directory content to your opencart
 installation directory.
